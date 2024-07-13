@@ -107,6 +107,23 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-icons-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+    background-color: #31d0aa;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -121,7 +138,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -254,11 +270,9 @@ img {
 }
 
 .solutions-icons-cont {
-    /* 1 */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* 1 */
     border-radius: 4px;
     width: 264px;
     height: 112px;
@@ -311,9 +325,7 @@ img {
 
 .team-icons-list {
     display: flex;
-    /* 2 */
     justify-content: center;
-    /* 2 */
     gap: 24px;
     max-width: 232px;
 }
@@ -325,9 +337,6 @@ img {
 .team-icons-item {
     width: 40px;
     height: 40px;
-    /* 4 */
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* 4 */
 }
 
 .team-icons-link {
@@ -339,14 +348,12 @@ img {
     flex-direction: row;
     border-radius: 50%;
     background-color: #4d5ae5;
-    /* 4 */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icons-link:hover,
 .team-icons-link:focus {
-    /* 3 */
     background-color: #404bbf;
-    /* 3 */
 }
 
 .team-icons {
@@ -384,19 +391,15 @@ img {
 
 .portfolio-item {
     cursor: pointer;
-    /* 6 */
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* 6 */
 }
 
-/* 5 */
 .portfolio-item:hover,
 .portfolio-item:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-/* 5 */
 
 .portfolio-item-text {
     font-size: 16px;
@@ -411,9 +414,7 @@ img {
     height: 300px;
     padding: 40px 32px;
     transform: translateY(100%);
-    /* 7 */
-    transition: tranform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* 7 */
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sect-title {
