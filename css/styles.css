@@ -168,7 +168,7 @@ img {
 
     margin: 0 auto;
 
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .hero-title {
@@ -234,8 +234,20 @@ img {
     flex-direction: column;
     display: flex;
     width: 264px;
-    height: 104px;
     flex-basis: calc( ( 100% - 72px ) / 4 );
+}
+
+.solutions-icons-cont {
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
+
+.solutions-icons {
+    
 }
 
 .sect-team {
